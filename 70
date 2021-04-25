@@ -596,7 +596,7 @@ def a_s():
                             cp.close()
                             cps.apppend(uid + pass5)
         except:
-            pass
+         
         
 
 
