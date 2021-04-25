@@ -595,8 +595,8 @@ def a_s():
                             cp.write(uid + ' | ' + pass5 + '\n')
                             cp.close()
                             cps.apppend(uid + pass5)
-        except:
-         
+        
+       
         
 
 
