@@ -28,8 +28,8 @@ header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-##### LOGO #####
-banner = """
+
+logo = """
 \033[1;94m     _     ____    ____  _   _     _     ____  
 \033[1;92m    / \   / ___|  / ___|| | | |   / \   |  _ \ 
 \033[1;93m   / _ \  \___ \ | |  _ | |_| |  / _ \  | |_) |
