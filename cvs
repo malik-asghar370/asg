@@ -430,13 +430,7 @@ try:
 except:
             pass
 
-    p = ThreadPool(30)
-    p.map(main, id)
-    print ''
-    print 47 * '-'
-    print ''
-    print ' The process has completed'
-    print ' Total Ok/Cp :' + str(len(oks)) + '/' + str(len(cps))
+    
         os.system('echo -e "-----------------------------------------------"| lolcat')
 	raw_input(" Press enter to main menu back ")
 	b_menu()
