@@ -432,7 +432,7 @@ except:
 
     
         
-	b_menu()
+	
 	
 if __name__ == '__main__':
     tech_abm()
