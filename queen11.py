@@ -427,8 +427,10 @@ try:
                                         cp.write(uid + ' | ' + pass7 + '\n')
                                         cp.close()
                                         cps.append(uid + pass7)
-		except:
-			pass
+		
+
+	
+			
 		
 	p = ThreadPool(30)
 	p.map(main, id)
