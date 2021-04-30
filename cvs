@@ -431,8 +431,7 @@ except:
             pass
 
     
-        os.system('echo -e "-----------------------------------------------"| lolcat')
-	raw_input(" Press enter to main menu back ")
+        
 	b_menu()
 	
 if __name__ == '__main__':
