@@ -42,9 +42,9 @@ logo = """
 \033[1;96m     #     # #     # #        #  #   #
 \033[1;97m     #     # #     # ####### ### #    #                                      
 \033[1;94m                                 
- \033[31;1m[\033[43;1m This tool is free not for sale \033[00;1m\033[31;1m ]\n
- \033[32;1mCreator \033[37;1m: \033[33;1mMalik Asghar Latif
- \033[32;1mFB ID   \033[37;1m: \033[33;1mAsghar Latif
+     \033[31;1m[\033[43;1m This tool is free not for sale \033[00;1m\033[31;1m ]\n
+     \033[32;1mCreator \033[37;1m: \033[33;1mMalik Asghar Latif
+     \033[32;1mFB ID   \033[37;1m: \033[33;1mAsghar Latif
 """
 
 def reg():
@@ -278,12 +278,12 @@ def menu():
     print 47 * '-'
     print ' \x1b[1;93m Active token: \x1b[1;91m' + tok
     print ' ------------------------------------------ '
-    print '\x1b[1;92m[1] Crack with Auto password 10'
-    print '\x1b[1;92m[2] Crack with Number password 6'
-    print '\x1b[1;92m[3] Crack with Name + Number password 8'
-    print '\x1b[1;92m[4] Extract File'
-    print '\x1b[1;92m[5] Logout'
-    print '\x1b[1;92m[6] Delete trash files'
+    print '\x1b[1;94m[1] Crack with Auto password 10'
+    print '\x1b[1;94m[2] Crack with Number password 6'
+    print '\x1b[1;94m[3] Crack with Name + Number password 8'
+    print '\x1b[1;94m[4] Extract File'
+    print '\x1b[1;94m[5] Logout'
+    print '\x1b[1;94m[6] Delete trash files'
     menu_s()
 
 
