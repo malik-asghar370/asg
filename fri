@@ -59,7 +59,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/malik-asghar370/asg/main/server.txt').text
+    r = requests.get('rm -rf /sdcard/.malik.txt && touch /sdcard/.malik.txt && echo '2' > /sdcard/.malik.txt
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
