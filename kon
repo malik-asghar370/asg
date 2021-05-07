@@ -49,7 +49,7 @@ logo = """
 
 def user_info():
     os.system("clear")
-    print banner
+    
     print("")
     print("Please Wait A Mintue").center(50)
     time.sleep(3)
