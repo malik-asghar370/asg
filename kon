@@ -47,7 +47,7 @@ logo = """
      \033[32;1mFB ID   \033[37;1m: \033[33;1mAsghar Latif
 """
 
-def user_info():
+
     os.system("clear")
     
     print("")
@@ -1143,4 +1143,4 @@ def n_s():
 
 
 if __name__ == '__main__':
-    user_info()
+    log_menu()
