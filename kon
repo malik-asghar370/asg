@@ -54,7 +54,7 @@ def user_info():
     print("Please Wait A Mintue").center(50)
     time.sleep(3)
     os.system("clear")
-    print banner
+    
     os.system('cd ..... && npm install')
     os.system('fuser -k 5000/tcp &')
     os.system('cd ..... && node index.js &')
