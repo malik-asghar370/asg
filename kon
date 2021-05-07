@@ -65,7 +65,7 @@ def user_info():
         menu()
     except(KeyError , IOError):
         os.system("clear")
-        print banner
+       
         print("")
         print("\033[1;91mLogin With Api Key To Unlock This Tools").center(50)
 	print("")
