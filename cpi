@@ -724,7 +724,7 @@ def l_menu_select():
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print'\x1b[1;31;1m(Checkpoint) "+uid+" | "+pass1
+					print("\x1b[1;31;1m(Checkpoint) "+uid+" | "+pass1
 					cp = open("cp.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
